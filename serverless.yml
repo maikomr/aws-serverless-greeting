@@ -12,6 +12,10 @@
 # Happy Coding!
 
 service: aws-serverless-greeting
+
+plugins:
+  - serverless-offline
+
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
